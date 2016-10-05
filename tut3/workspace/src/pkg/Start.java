@@ -16,6 +16,8 @@ public class Start {
 		System.out.println(sum(5.3,2));
 		System.out.println(max(255,50));
 		sumAmbig(1.5,2.3);
+		
+
 
 	}
 	public static void message(){

@@ -63,4 +63,26 @@ public class Main  {
 	public static void sumAmbig(float a, double b){
 		System.out.println(a+b);
 	}
+	
+	//Scope: there three types of scope in java
+	
+	//the class scope: we can deal with it by using access modifiers
+	
+	//the scope of methods :
+	
+	public static void iDoNothing(){
+		int iAmInsideThisBlock = 10;
+	}
+	
+	//loops scope
+	
+	int x = 0;
+	
+	for(x = 0; x < 5; x++){
+		
+	}
+	
+	for(int x = 0; x < 5; x++){
+		
+	}
 }
