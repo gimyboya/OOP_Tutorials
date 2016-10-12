@@ -22,6 +22,7 @@ Please take the time to read this README as it contains useful links and trick o
 1. [Tutorial 1(Generalities about java, Simple I/O)](http://bit.ly/FirstDeck)
 2. [Tutorial 2(Primitive Data Types, Casting, Conditions, Loops )](http://bit.ly/SecoundDeck)
 3. [Tutorial 3(Methods)](http://bit.ly/ThirDeck)
+4. [Tutorial 4(Arrays)](http://bit.ly/slid4)
 
 ## GitBook(on progress)
 
