@@ -8,7 +8,7 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        String[] myArray = new String[5];
+        String[] myArray = new String[5];//declaration creation
 
         for (int i = 0; i < myArray.length; i++){
             System.out.println("Enter a word:");
