@@ -15,6 +15,28 @@ Please take the time to read this README as it contains useful links and trick o
 
 # How to use this 
 
+- There is a "Download ZIP" button on the right side of this page. Download the package and extract to a folder of your choice. All the folders containing the solutions will be on your machine 
+
+  ![download](../reveal/img/download.gif)
+
+  **Note:** most of the projects are made in IntelliJ which means you can't open the project on eclips but you can still view the files with `.java ` extension
+
+- Or if you want an automated way to you can [install git](https://git-scm.com/download/win) then run the following commands:
+
+  `git clone https://github.com/gimyboya/OOP_Tutorials.git`  this command will clone this repo on your machine
+  after the cloning is done run this commant `cd OOP_Tutorials` to move inside the folder 
+  the run this command `git remote add upstream https://github.com/gimyboya/OOP_Tutorials.git` this will connect your folder to this repo remotly via git
+
+  then finally `git pull` will pull all the new content if any which means whenever i update this repo if you run that command you will instantly receive all the changes on your machine via git. 
+
+  ```git
+  git clone https://github.com/gimyboya/OOP_Tutorials.git
+  cd OOP_Tutorials
+  git remote add upstream https://github.com/gimyboya/OOP_Tutorials.git
+  git pull
+  ```
+  above are all the commands to set up your clone for the first time after that all you need to do is just ren the command `git pull`.
+
 # Other resources
 
 ## Slides 
@@ -42,6 +64,10 @@ There is an excelent channel on youtube that i suggest (the guy is not boring)
 And his [playlist](http://bit.ly/JavaFXGui) for the JavaFX (**very useful for your project**)
 
 
+
+# Issues
+
+If you find any error, mistake, problem, spelling mistake, or anything ... and I really mean anything like for example you don't like your tutor ;) use the issue section on the top it will really help us improve this repo for a better experience.   
 
 
 # Contact us
