@@ -54,6 +54,7 @@ public class Character {
     public void recive_damage(int strength){
 
         this.health = this.health - strength;
+        System.out.println(this.getName() + "received " + strength + " damage" );
     }
 
     public void normal_attack(Character enemy){
@@ -111,5 +112,10 @@ public class Character {
 
     public void setAttack_strength(int attack_strength) {
         this.attack_strength = attack_strength;
+    }
+
+    public void setWeapon(Weapon w){
+        this.weapon = w;
+        System.out.println(this.getName() + "Is using " + w.getName() + " now");
     }
 }
