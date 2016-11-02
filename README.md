@@ -46,6 +46,7 @@ Please take the time to read this README as it contains useful links and trick o
 3. [Tutorial 3(Methods)](http://bit.ly/ThirDeck)
 4. [Tutorial 4(Arrays)](http://bit.ly/slid4)
 5. [Tutorial 5(Object & Classes)](http://bit.ly/Tut-5)
+6. [Tutorial 6(Thinking in objects)](http://bit.ly/tut-6)
 
 ## GitBook(on progress)
 
