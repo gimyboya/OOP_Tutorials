@@ -59,8 +59,8 @@ public class Character {
 
     public void normal_attack(Character enemy){
 
-        enemy.recive_damage(enemy.weapon.getDamage());
         System.out.println(this.getName() + " attacked " + enemy.getName() + "with " + this.weapon.getName() );
+        enemy.recive_damage(enemy.weapon.getDamage());
     }
 
     public void magical_attack(Character enemy){
