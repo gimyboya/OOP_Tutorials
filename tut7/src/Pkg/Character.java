@@ -6,14 +6,13 @@ package Pkg;
 public class Character {
 
     private String name;
-    private int health;
+    private int health = 100;
 
     public Character(){}//no arguments constructor
 
-    public Character(String n,int h){
+    public Character(String n){
 
         this.name = n;
-        this.health = 100;
     }
 
     public void recive_damage(int strength){

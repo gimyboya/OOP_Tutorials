@@ -7,6 +7,10 @@ public class Warrior extends Character {
 
     public Warrior(){}// no argument constructor
 
+    public Warrior(String n){
+        super(n);
+    }
+
     public void high_five_in_the_face_with_a_chair(Character enemy){
         enemy.recive_damage(20);
     }
