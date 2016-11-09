@@ -6,7 +6,7 @@ package Pkg;
 public class Character {
 
     private String name;
-    private int health = 100;
+    public int health = 100;
 
     public Character(){}//no arguments constructor
 
