@@ -13,8 +13,16 @@ public class CountedItem extends PurchaseItem {
         this.quantity = q;
     }
 
+    public int getQuantity(){return this.quantity;}
+
     @Override
     public double getPrice() {
         return super.getUnitPrice() * this.quantity;
+    }
+
+    @Override
+    public String toString() {
+        String info = "\t\t\t::Counted Item::\n\nName : " + super.getName() + "\nQuantity : " + this.getQuantity() + "\nPrice : " + this.getPrice();
+        return info;
     }
 }

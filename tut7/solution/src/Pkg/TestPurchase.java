@@ -30,6 +30,24 @@ public class TestPurchase {
 
         System.out.println(Wi.toString());
 
+        System.out.println("Counted Item Information :");
+
+        System.out.println("Name : ");
+        name = input.nextLine();
+
+        System.out.println("Unite Price : ");
+        uPrice = input.nextDouble();
+        input.nextLine();
+
+        System.out.println("Quantity : ");
+        quantity = input.nextInt();
+        input.nextLine();
+
+        CountedItem ci = new CountedItem(name, uPrice, quantity);
+
+
+        System.out.println(ci.toString());
+
 
 
     }
