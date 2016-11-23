@@ -49,6 +49,7 @@ Please take the time to read this README as it contains useful links and trick o
 6. [Tutorial 6(Thinking in objects)](http://bit.ly/tut-6)
 7. [Tutorial 7(Inheritance and Polymorphism)](http://bit.ly/tut-7)
 8. [Tutorial 8(Inheritance and Polymorphism II)](http://bit.ly/tut-8)
+9. [Tutorial 9(Abstract Classes)](http://bit.ly/tut-9)
 
 ## GitBook(on progress)
 
