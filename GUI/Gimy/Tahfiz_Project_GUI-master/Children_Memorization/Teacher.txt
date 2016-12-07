@@ -1,0 +1,5 @@
+25555 password tertour 01123158523 tertou@tertour.com 9endahar true 2
+24512 o87ict omar 0156442341 omar87@gmail.com gombak true 1
+26331 t99eng tariq 0173226458 tariq99@gmail.com taman_melati false 1
+26652 aiman123 aiman 0154687141 aiman96@gmail.com potra_jaya true 1
+21234 ostazy islam 0113334661 islam85@gmail.com Putra_mas true 2

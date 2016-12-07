@@ -17,7 +17,7 @@ Please take the time to read this README as it contains useful links and trick o
 
 - There is a "Download ZIP" button on the right side of this page. Download the package and extract to a folder of your choice. All the folders containing the solutions will be on your machine 
 
-  ![download](../reveal/img/download.gif)
+  ![download](download.gif)
 
   **Note:** most of the projects are made in IntelliJ which means you can't open the project on eclips but you can still view the files with `.java ` extension
 

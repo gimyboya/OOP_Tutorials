@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Classes.WelcomeController">
+   <center>
+      <HBox alignment="CENTER" spacing="30.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="tBut" alignment="BOTTOM_CENTER" contentDisplay="TOP" mnemonicParsing="false" onAction="#tLogButClicked" text="Teacher">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/Teacher.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+            <Button fx:id="pBut" alignment="BOTTOM_CENTER" contentDisplay="TOP" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#pLogButClicked" text="Parent">
+               <graphic>
+                  <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@../Images/Parent.png" />
+                     </image>
+                  </ImageView>
+               </graphic>
+            </Button>
+         </children>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </HBox>
+   </center>
+   <top>
+      <Hyperlink fx:id="adminLink" onAction="#adminLinkClicked" text="Admin" BorderPane.alignment="CENTER" />
+   </top>
+   <padding>
+      <Insets bottom="50.0" left="50.0" right="50.0" />
+   </padding>
+</BorderPane>

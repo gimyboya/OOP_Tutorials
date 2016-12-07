@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller1">
+   <center>
+      <VBox fillWidth="false" prefHeight="200.0" prefWidth="100.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+         <children>
+            <TextField fx:id="Push">
+               <VBox.margin>
+                  <Insets bottom="20.0" top="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="pull">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="squat">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+            <TextField fx:id="km">
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </TextField>
+         </children>
+      </VBox>
+   </center>
+   <left>
+      <VBox prefHeight="200.0" spacing="20.0" BorderPane.alignment="CENTER">
+         <children>
+            <Label text="How many push-ups?">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="How many Pull-ups?">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="How many squats?">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Running distance?(KM)">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </left>
+   <bottom>
+      <Button fx:id="checkOut" mnemonicParsing="false" onAction="#checkOut" text="Check it out Sensei" BorderPane.alignment="CENTER">
+         <BorderPane.margin>
+            <Insets bottom="20.0" top="20.0" />
+         </BorderPane.margin>
+      </Button>
+   </bottom>
+   <right>
+      <ImageView fitHeight="326.0" fitWidth="288.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER">
+         <image>
+            <Image url="@img/Saitama_Serious_Face_Transparent.png" />
+         </image>
+      </ImageView>
+   </right>
+</BorderPane>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Classes.ParentpanelController">
+  <children>
+    <MenuBar VBox.vgrow="NEVER">
+      <menus>
+        <Menu fx:id="logout" mnemonicParsing="false" text="Logout" />
+      </menus>
+    </MenuBar>
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+         <children>
+            <ListView fx:id="listView" prefHeight="200.0" prefWidth="200.0" />
+            <TableView prefHeight="229.0" prefWidth="403.0" HBox.hgrow="ALWAYS">
+              <columns>
+                <TableColumn prefWidth="75.0" text="Soura" />
+                <TableColumn prefWidth="75.0" text="From aya" />
+                  <TableColumn prefWidth="75.0" text="To aya" />
+                  <TableColumn prefWidth="75.0" text="Evaluation" />
+                  <TableColumn prefWidth="75.0" text="Date" />
+              </columns>
+            </TableView>
+         </children>
+         <VBox.margin>
+            <Insets />
+         </VBox.margin>
+      </HBox>
+  </children>
+</VBox>

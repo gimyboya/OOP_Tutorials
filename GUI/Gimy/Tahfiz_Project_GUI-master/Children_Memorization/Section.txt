@@ -1,0 +1,5 @@
+al-seddeq 1 8 6 8 1 2 21234
+al-faroq 2 7 9 11 2 3 26652
+amin_al-omah 3 10 12 15 2 5 21234
+zi_alnorain 4 15 16 18 3 5 26331
+abu_huraira 5 12 18 20 4 6 24512

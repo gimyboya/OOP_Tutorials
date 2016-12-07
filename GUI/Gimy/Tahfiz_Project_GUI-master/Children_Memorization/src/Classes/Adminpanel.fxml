@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox xmlns="http://javafx.com/javafx/8.0.65" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Classes.AdminpanelController">
+  <children>
+    <MenuBar VBox.vgrow="ALWAYS">
+      <menus>
+        <Menu mnemonicParsing="false" text="New">
+          <items>
+            <MenuItem mnemonicParsing="false" text="Section" />
+            <MenuItem mnemonicParsing="false" text="Teacher" />
+            <MenuItem mnemonicParsing="false" text="Parent" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Logout" />
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" text="About MyHelloApp" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+      <HBox alignment="CENTER" VBox.vgrow="ALWAYS">
+         <children>
+            <TableView prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn minWidth="200.0" prefWidth="200.0" text="Teachers" />
+              </columns>
+            </TableView>
+            <TableView prefHeight="200.0" prefWidth="200.0">
+              <columns>
+                <TableColumn minWidth="200.0" prefWidth="200.0" text="Sections" />
+              </columns>
+            </TableView>
+            <TableView prefHeight="200.0" prefWidth="200.0" HBox.hgrow="ALWAYS">
+              <columns>
+                <TableColumn minWidth="200.0" prefWidth="200.0" text="Children" />
+              </columns>
+            </TableView>
+         </children>
+      </HBox>
+  </children>
+</VBox>
