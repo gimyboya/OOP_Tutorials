@@ -19,9 +19,9 @@ Please take the time to read this README as it contains useful links and trick o
 
   ![download](download.gif)
 
-  **Note:** most of the projects are made in IntelliJ which means you can't open the project on eclips but you can still view the files with `.java ` extension
+  **Note:** most of the projects are made with IntelliJ and I didn't set it up to be compatible with eclips (it's possible if you want to do it) but you can still view the files with the `.java ` extension
 
-- Or if you want an automated way to you can [install git](https://git-scm.com/download/win) then run the following commands:
+- if you want an automated way to you can [install git](https://git-scm.com/download/win) then run the following commands:
 
   `git clone https://github.com/gimyboya/OOP_Tutorials.git`  this command will clone this repo on your machine
   after the cloning is done run this commant `cd OOP_Tutorials` to move inside the folder 
@@ -41,8 +41,8 @@ Please take the time to read this README as it contains useful links and trick o
 
 ## Slides 
 
-1. [Tutorial 1(Generalities about java, Simple I/O)](http://bit.ly/FirstDeck)
-2. [Tutorial 2(Primitive Data Types, Casting, Conditions, Loops )](http://bit.ly/SecoundDeck)
+1. [Tutorial 1(Generalities about java, Simple I/O,Primitive Data Types)](http://bit.ly/Tut-1)
+2. [Tutorial 2(Control Flow)](http://bit.ly/SecoundDeck)
 3. [Tutorial 3(Methods)](http://bit.ly/ThirDeck)
 4. [Tutorial 4(Arrays)](http://bit.ly/slid4)
 5. [Tutorial 5(Object & Classes)](http://bit.ly/Tut-5)
@@ -51,7 +51,7 @@ Please take the time to read this README as it contains useful links and trick o
 8. [Tutorial 8(Inheritance and Polymorphism II)](http://bit.ly/tut-8)
 9. [Tutorial 9(Abstract Classes)](http://bit.ly/tut-9)
 
-## GitBook(on progress)
+## GitBook (in progress)
 
 In this book you will find (hopefully) what have been  explained  in tutorial class and perhaps a much deeper view
 
@@ -61,7 +61,7 @@ you can alwayse refer to this book if you forgot anything or you can [ask](#Cont
 
 ## Youtube
 
-There is an excelent channel on youtube that i suggest (the guy is not boring)
+There is an excelent channel on youtube that I suggest (not a boring video I promise :D)
 
 [Watch here ->](http://bit.ly/JavaBeg)
 
@@ -74,7 +74,7 @@ And his [playlist](http://bit.ly/JavaFXGui) for the JavaFX (**very useful for yo
 If you find any error, mistake, problem, spelling mistake, or anything ... and I really mean anything like for example you don't like your tutor ;) use the issue section on the top it will really help us improve this repo for a better experience.   
 
 
-# Contact us
+# Contact me
 
 well you can use Github :) 
 
@@ -82,4 +82,6 @@ or:
 
 - [Twitter](https://twitter.com/AfatahB)
 - [E-mail](mailto:b.afatah@yahoo.com)
+- [Telegram: @abu_moh137](http://bit.ly/T3l3gram)
+
 
