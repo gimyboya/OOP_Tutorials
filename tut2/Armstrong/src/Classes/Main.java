@@ -15,6 +15,14 @@ public class Main {
 
         num = input.nextInt();
 
+      /*
+      test values:
+      371
+      153
+      370
+      407
+       */
+
         int temp = num;
 
         for(int i = 100; i >= 1; i /= 10){ // we start from 100 and we devide each time by 10

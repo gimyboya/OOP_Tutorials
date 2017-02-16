@@ -41,7 +41,7 @@ Please take the time to read this README as it contains useful links and trick o
 
 ## Slides 
 
-1. [Tutorial 1(Generalities about java, Simple I/O,Primitive Data Types)](http://bit.ly/Tut-1)
+1. [Tutorial 1(Generalities about java, Simple I/O,Primitive Data Types)](http://bit.ly/TUT-1)
 2. [Tutorial 2(Control Flow)](http://bit.ly/SecoundDeck)
 3. [Tutorial 3(Methods)](http://bit.ly/ThirDeck)
 4. [Tutorial 4(Arrays)](http://bit.ly/slid4)

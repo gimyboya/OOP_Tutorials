@@ -12,11 +12,11 @@ public class Main {
 
         dRandom = Math.random();
 
-        System.out.println(dRandom);
+        //System.out.print(dRandom);
 
-        /*  int iRandom = 0;
-        iRandom = Math.random(); //Demonstrate the casting
-        System.out.println(iRandom);   */
+        /*int iRandom = 0;
+        iRandom =  (int)Math.random(); //Demonstrate the casting
+        System.out.println(iRandom);*/
 
 
         /* ===============
@@ -31,18 +31,23 @@ public class Main {
 
         doublRandom = Math.random() * 11;
 
-        //to have integers only we need to cast the whole expression
+      //System.out.println(doublRandom);
+
+      //to have integers only we need to cast the whole expression
 
         int random = 0;
 
-        random = (int) (Math.random() * 11);
+        random = (int) ((Math.random() * 11));
 
+      //System.out.println(random);
 
-        // to have upper and lower limits
-        int max = 0, min = 0;
+      // to have upper and lower limits
+        int max = 20, min = 5;
 
         int range = (max - min) + 1;
 
-        random = (int)(Math.random() * range + min);
+        random = (int)((Math.random() * range + min));
+
+      System.out.println(random);
     }
 }
