@@ -5,12 +5,15 @@ import java.util.Scanner;
 public class Main {
 
 	public static void main(String[] args) {
+
+    Scanner input = new Scanner(System.in);
+
 		double r = 0;
 		final double pi = 3.14;
 		
-		Scanner input = new Scanner(System.in);
 
-        System.out.println("type your circle raduis");
+
+        System.out.println("type your circle radius");
 
         r = input.nextDouble();
         

@@ -16,14 +16,15 @@ public class Main {
         num = input.nextInt();
 
 
-        for (int i = num; i >=0; i--){
+        for (int i = num; i > 0; i--){
 
-            for (int j = i; j >= 0; j--){
-                System.out.print(j); //notice the print() function
+            for (int j = num; j > num-i; j--){
+
+              System.out.print(j); //notice the print() function
                 //here we print the value of j and decrease it each time
             }
 
-            System.out.println(" "); // we make a line return
+            System.out.println(""); // we make a line return
         }
 
     }

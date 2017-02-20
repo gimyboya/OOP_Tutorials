@@ -1,36 +1,32 @@
 package pakg;
 
 
-import java.io.FileInputStream;
-import java.util.InputMismatchException;
-import java.util.LinkedList;
 import java.util.Scanner;
 
 public class Main {
 
     public static void main(String[] args) {
 
+      Scanner input = new Scanner(System.in);
 
-        Scanner input = new Scanner(System.in);
-        boolean continueInput = true;
+      int num = 0;
+      int sum = 0;
 
-        do {
-            try {
-                System.out.print("Enter a real number: ");
-                double number = input.nextInt();
+      System.out.println("Enter a number");
 
-                // Display the result
-                System.out.println(
-                        "The number entered is " + number);
+      num = input.nextInt();
 
-                continueInput = false;
-            }
-            catch (InputMismatchException ex) {
-                System.out.println("Try again. (" +
-                        "Incorrect input: an integer is required)");
-                input.nextLine(); // discard input
-            }
-        } while (continueInput);
+      sum = sum + num; // add the number to the sum variable
+
+      System.out.println("Enter another number");
+
+      num = input.nextInt(); //take another number
+
+      sum = sum + num;
+
+      System.out.println("the result of the sum is: " + sum);
+
+
 
     }
 
