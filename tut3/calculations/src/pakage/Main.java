@@ -5,21 +5,19 @@ import java.util.*;
 public class Main {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		
 		Scanner input = new Scanner(System.in);
 		
 		
 		System.out.println("enter two numbers:");
 		double num1 = input.nextDouble();
-		input.nextLine();
+
 		double num2 = input.nextDouble();
-		input.nextLine();
 		
-		System.out.println("wht do you want?");
+		System.out.println("what do you want to do?");
 		
-		System.out.println("1- add \t\t\t\t 2-substract");
-		System.out.println("3- devide \t\t\t\t 4-reminder");
+		System.out.println("1- add \t\t\t\t 2-subtract");
+		System.out.println("3- divide \t\t\t\t 4-reminder");
 		
 		System.out.println("choose a number (1-4): ");
 		
@@ -49,7 +47,7 @@ public class Main {
 	
 	public static double divide(double a, double b){
 		if(b == 0){
-			System.out.println("We can't devide by Zero!");
+			System.out.println("We can't divide by Zero!");
 			return -1;
 		}else{
 			System.out.println("the result is " + (a/b));
@@ -59,7 +57,7 @@ public class Main {
 	
 	public static double reminder(double a, double b){
 		if(b == 0){
-			System.out.println("We can't devide by Zero!");
+			System.out.println("We can't divide by Zero!");
 			return -1;
 		}else{
 			return a % b;
@@ -80,7 +78,9 @@ public class Main {
 		case 4:
 			System.out.println(reminder(num1, num2));
 			break;
-		}
+    default:
+      System.out.println("Wrong choice!!!");
+    }
 	}
 	
 	
