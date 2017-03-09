@@ -7,15 +7,15 @@ public class Main {
     public static void main(String[] args) {
 	// write your code here
 
-        Scanner input = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);// we create a scanner
 
-        int num = 0;
+        int num = 0; // we always initialize
 
         System.out.println("Please enter a number:");
 
         num = input.nextInt();
 
-        boolean isPrime = true;
+        boolean isPrime = true; //optimist
 
         for (int i = 2; i < num; i++){
 

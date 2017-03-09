@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+
+        Scanner input = new Scanner(System.in);// we create a scanner
 
         int[] myArray = new int[5];
 
@@ -25,6 +26,7 @@ public class Main {
 
         int max = myArray[0];
         int min = myArray[0];
+
         int maxIndex = 0;
         int minIndex = 0;
 
@@ -47,7 +49,7 @@ public class Main {
         System.out.println(maxIndex + "th index before is: " + myArray[maxIndex]);
         System.out.println(minIndex + "th index before is: " + myArray[minIndex]);
 
-        /* here is a trik to swap without using a temporary variable */
+        /* here is a trick to swap without using a temporary variable */
 
         myArray[minIndex] =  myArray[minIndex] + myArray[maxIndex]; // a = a + b
         myArray[maxIndex] = myArray[minIndex] - myArray[maxIndex]; // b = a - b

@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) {
-	    Scanner input = new Scanner(System.in);
+
+	    Scanner input = new Scanner(System.in);// create a scanner
 
         System.out.println("How many numbers do you have?: ");
 
@@ -20,18 +21,21 @@ public class Main {
 
         for (int i = 0; i < myArray.length; i++) {
 
-            System.out.println("Enter a number");
+            /*System.out.println("Enter a number");
 
             while (!input.hasNextInt()){
                 System.out.println("Enter an integer!!!: ");
                 input.next();
             }
 
-            myArray[i] = input.nextInt();
+            myArray[i] = input.nextInt();*/
 
+            myArray[i] = (int)(Math.random() * 101);
         }
 
         java.util.Arrays.sort(myArray); //built in sort function only (ascending order)
+
+
 
         System.out.print("Array in  ascending order:");
 
@@ -73,7 +77,7 @@ public class Main {
 
         while(!sorted){
             sorted = true;
-            for (int i = 0; i < scope-1 ; i++) {
+            for (int i = 0; i < scope-1 ; i++) { //Descending
 
                 if(arr[i] < arr[i+1]){
 
@@ -96,6 +100,7 @@ public class Main {
 
             if(arr[i] == value){
                 found = true;
+              index = i;
                 break;
             }
         }

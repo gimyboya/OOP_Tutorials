@@ -18,7 +18,6 @@ public class Main {
         iRandom =  (int)Math.random(); //Demonstrate the casting
         System.out.println(iRandom);*/
 
-
         /* ===============
 
         Solution
@@ -31,23 +30,23 @@ public class Main {
 
         doublRandom = Math.random() * 11;
 
-      //System.out.println(doublRandom);
+        //System.out.println(doublRandom);
 
       //to have integers only we need to cast the whole expression
 
         int random = 0;
 
-        random = (int) ((Math.random() * 11));
+        random = (int)(Math.random() * 11);
 
-      //System.out.println(random);
+        //System.out.println(random);
 
       // to have upper and lower limits
-        int max = 20, min = 5;
+        int max = 50, min = 20;
 
         int range = (max - min) + 1;
 
         random = (int)((Math.random() * range + min));
 
-      System.out.println(random);
+        System.out.println(random);
     }
 }

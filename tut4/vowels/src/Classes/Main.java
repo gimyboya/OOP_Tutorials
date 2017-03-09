@@ -9,10 +9,12 @@ public class Main {
 
         String myString;
 
-        System.out.println("Enter a String: ");
-        myString = input.nextLine();
+      System.out.println("Enter a String: ");
+      myString = input.nextLine();
 
-        vowels(myString);
+      vowels(myString);
+
+
     }
 
     public static void vowels(String s){
@@ -21,11 +23,13 @@ public class Main {
 
         for (int i = 0; i < s.length(); i++) {
 
-
             switch (s.charAt(i)){
                 case 'a':
                     counter++;
                     break;
+              case 'A':
+                counter++;
+                  break;
                 case 'e':
                     counter++;
                     break;

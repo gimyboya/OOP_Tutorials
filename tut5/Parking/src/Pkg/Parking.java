@@ -3,9 +3,11 @@ package Pkg;
 /**
  * Created by gimy on 10/19/2016.
  */
+
 public class Parking {
 
-    private int vehicleType;
+  //data Fields
+  private int vehicleType;
     private int hours;
     private double fees;
 
@@ -14,18 +16,19 @@ public class Parking {
     }
 
     public Parking(int vehicleType, int hours){
+
         this.vehicleType = vehicleType;
         this.hours = hours;
         setFees(vehicleType, hours);
     }
 
-    public int getVehicleType() {
-        return vehicleType;
-    }
+  public int getVehicleType() {
+    return vehicleType;
+  }
 
-    public void setVehicleType(int vehicleType) {
-        this.vehicleType = vehicleType;
-    }
+  public void setVehicleType(int vehicleType) {
+    this.vehicleType = vehicleType;
+  }
 
     public int getHours() {
         return hours;
@@ -52,7 +55,7 @@ public class Parking {
             }
         }else if(vehicleType == 2){
             if(hours > 2){
-                this.fees = 2 + (hours - 2) * 05;
+                this.fees = 3 + (hours - 2) * 0.5;
 
                 if(fees > 12){
                     this.fees = 12;
@@ -62,4 +65,6 @@ public class Parking {
             }
         }
     }
+
+
 }

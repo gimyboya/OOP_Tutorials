@@ -45,11 +45,11 @@ public class Main {
             }
 
             if(!duplicate){
-                counter++;
+                counter++; //we increment the counter to write in a new index
             }else if( duplicate && i == (arr.length-1) ){
-                counter--;
+                counter--; //we don't need a duplicate at the end of the array
             }else if(duplicate){
-                duplicate = false;
+                duplicate = false; //we will not increment the counter to override the value
             }
 
         }
