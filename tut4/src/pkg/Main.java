@@ -22,7 +22,7 @@ public class Main {
       }
     }
 
-    public static Object sorting(int[] array){
+    public static int[] sorting(int[] array){
       java.util.Arrays.sort(array);
       return array;
     }

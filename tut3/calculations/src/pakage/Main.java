@@ -46,9 +46,10 @@ public class Main {
 	}
 	
 	public static double divide(double a, double b){
+    final int DIVISION_BY_ZERO = -1;
 		if(b == 0){
 			System.out.println("We can't divide by Zero!");
-			return -1;
+      return DIVISION_BY_ZERO;
 		}else{
 			System.out.println("the result is " + (a/b));
 			return a / b;

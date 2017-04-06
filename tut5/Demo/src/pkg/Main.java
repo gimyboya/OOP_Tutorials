@@ -1,18 +1,28 @@
 package pkg;
 
-import java.util.Scanner;
-
 public class Main {
 
-    public static void main(String[] args) {
-        Cat famousCat1 = new Cat("chouchou", 2);
+  public static void main(String[] args) {
 
-        Cat nonfamousCat = new Cat();
+    Cat famousCat1 = new Cat("Grempy Cat", 2);
 
-        System.out.println(famousCat1.getName() + " " + famousCat1.getAge());
-        System.out.println(famousCat1.numberOfCats);
-        System.out.println(nonfamousCat.numberOfCats);
+    Cat nonfamousCat = new Cat();
 
+    System.out.println(famousCat1.getName());
+    System.out.println(famousCat1.getAge());
 
+    System.out.println(nonfamousCat.getName());
+    System.out.println(nonfamousCat.getAge());
+
+    Cat[] myCats = new Cat[5];
+
+    for (int i = 0; i < myCats.length; i++) {
+
+      myCats[i] = new Cat();
     }
+
+    myCats[0].getName();
+
+
+  }
 }

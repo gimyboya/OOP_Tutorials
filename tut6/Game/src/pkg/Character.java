@@ -43,7 +43,7 @@ public class Character {
                 }
                 System.out.println("you used one potion for health you still have only" + this.health_potion);
             }else{
-                System.out.println("you are healthy!");
+                System.out.println("you are as healthy as a running horse!");
             }
         }else{
             System.out.println("health potion out of stock");

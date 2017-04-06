@@ -10,6 +10,7 @@ public class Cat {
      * Data Field
      * ============
      */
+    private String name;
 
     private int age;
 
@@ -29,15 +30,13 @@ public class Cat {
      */
 
     public Cat(){
-
-        this("no name", 2);
-
+        name = "No Name";
         numberOfCats ++;
     }
 
-    public Cat(String name, int age){
-        this.name = name;
-        this.age = age;
+    public Cat(String n, int a){
+        this.name = n;
+        this.age = a;
         numberOfCats ++;
     }
 
@@ -69,11 +68,11 @@ public class Cat {
     }
 
     public int getAge() {
-        return age;
+      return age;
     }
 
     public void setAge(int age) {
-        this.age = age;
+      this.age = age;
     }
 
     /**********
@@ -81,5 +80,5 @@ public class Cat {
      * End of Methods
      * ============
      */
-    private String name;
+
 }
