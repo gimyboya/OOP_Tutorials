@@ -5,6 +5,6 @@ package com.company;
  */
 public class Dinosaur {
   public Dinosaur(){
-    System.out.println("Dinosaur constructor invoked");
+    System.out.println("Dinosaur constructor invoked!");
   }
 }

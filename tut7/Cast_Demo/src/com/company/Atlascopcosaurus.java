@@ -6,7 +6,7 @@ package com.company;
 public class Atlascopcosaurus extends Dinosaur{
 
   public Atlascopcosaurus(){
-    System.out.println("Then the Atlascopcosaurus is invoked");
+    //System.out.println("Then the Atlascopcosaurus is invoked");
   }
 
   public void you_wont_catch_me(){
